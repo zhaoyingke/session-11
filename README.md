@@ -27,6 +27,7 @@ https://www.washingtonpost.com/graphics/national/police-shootings-2016/
 
 **Calculateur**
 
+http://www.bbc.com/news/health-42013239
 http://www.bbc.com/news/world-34808717
 
 **Série de graphiques narratifs**
