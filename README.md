@@ -34,3 +34,11 @@ http://www.bbc.com/news/world-34808717
 **Série de graphiques narratifs**
 
 https://www.bloomberg.com/graphics/2015-dangerous-jobs/
+
+# Quelques idées dans l'air du temps
+
+- un calendrier de l'avent du gouvernement
+- les résultats d’un sondage google form sur les habitudes/intérêts/connaissances de vos camarades
+- un calculateur de frais de carburant suite à la hausse des taxes et du baril (en fonction des km parcourus/jour)
+- une longue dataviz à scroller pour faire ressentir la longueur parcourue par francis joyon
+- ...
