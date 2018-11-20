@@ -1,3 +1,28 @@
+body {
+    background-color: #000000
+}
+
+
+p{
+	text-align: justify;
+}
+
 .app {
   
+}
+
+.main{
+	margin: auto;
+	max-width: 600px
+}
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
