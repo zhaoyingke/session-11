@@ -6,7 +6,7 @@
     <title>Le Trafic du luxe, un marché qui s’épanouit dans la clandestinité</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lora|Slabo+27px|Raleway:400,900,600|Playfair+Display+SC:700,400,900|Prata|Rozha+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lora|Slabo+27px|Raleway:400,900,600|Playfair+Display+SC:700,400,900|Prata|Rozha+One|Quattrocento" rel="stylesheet">
   </head>
   <body>
     <main class='container'>
@@ -16,8 +16,9 @@
 	        	<h1>Le trafic du luxe, un marché qui s’épanouit dans la clandestinité</h1>
 	            </br>
 	            <p class='chapo'>
-	            	paragraphe chapô
+	            	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 	        	</p>
+	        	<span class='chapo'>Par</span> <span class='signature'>Yingke <b>ZHAO</b></span>
 	        </article>
 	    </section>
 	    <section class='illus col-lg-6 col-md-6 col-sm-12 text-white'>
@@ -36,7 +37,7 @@
         </br>
         <h3>Un métier très lucratif</h3>
         <p>En 2017, la Chine a enregistré un record de vente en ligne transfrontalière d’environ 10 milliards d’euros, soit une croissance de plus de 80% par rapport à l’an dernier, et ce excluant les commerces internationaux traditionnels. Le fort pouvoir d’achat des consommateurs chinois a donné naissance à des magnats de commerce numérique, notamment Alibaba, JD et NetEase. Trois géants qui ont créé leurs propres plateformes et permettent de faire du shopping à l’étranger depuis la Chine.</p>
-        <div class="flourish-embed" data-src="visualisation/161210"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+        <p><multibar-chart></multibar-chart></p>
         <p>Les daigou, quant à eux, ont fondé un marché fantôme en parallèle aussi épanouissant qu’avantagieux. Le secret de leur réussite: les grands écarts de prix entre le marché chinois et ceux où les produits sont fabriqués. En effet, les consommateurs chinois doivent souvent payer 30% plus cher que leurs homologues européens pour les mêmes produits. Par ailleurs, les acheteurs à l’étranger, parfois déguisés en touristes, peuvent bénéficier de prix encore plus bas, grâce aux conditions de détaxe qu’ont fixées les douanes. En France, précisément, pour tout achat de plus de 175 euros vendu « au détail » et « à caractère touristique », les visiteurs non-UE peuvent, quand ils quittent le territoire français, demander un remboursement d’environ 12% du montant dépensé.</p>
         <p>Cela donne une marge de rentabilité considérable pour les revendeurs, et Sophie en a profité dès sa première expérience en tant qu’acheteuse. « J’ai été très chanceuse », se souvient-elle, « mon patron m’a demandé de lui acheter un grand sac Birkin et grâce à cette seule commande j’ai gagné 400 euros, ce que j’aurais pu faire pendant tout le mois en prenant un boulet d’étudiant à côté. Le sac commandé a coûté environ 8000 euros, et j’ai touché une commission de 5%. » Il s’agit d’une ligne de produit très haut de gamme d’Hermès (même pour cette marque prodigieuse) dont le prix peut aller jusqu’à 300 000 dollars sur le marché international. En chine, en particulier, c’est encore plus exorbitant en raison des taux de taxe imposée sur les produits de luxe importés qui varient entre 30% et 60%. Sur le site Secoo.com, marchand chinois spécialisé en vente de luxe, il n’y a pas d’article Birkin à moins de  10 000 euros sauf quelques sacs d’occasions. « C’est surtout ça la marge de rentabilité pour les daigou », ajoute la jeune étudiante.</p>
         <p>Un prix plus abordable n’est pas le seul point fort pour les clients chinois, qui commencent à peine à se familiariser avec le milieu du luxe. « Jusqu’à l’époque récente, les consommateurs chinois manquaient de connaissance et de goût [pour le luxe]. Ils ne pouvaient décider quels produits acheter », élucide Denis Morisset, ancien directeur de luxe et enseignant de gestion des marques de luxe à l’ESSEC. De ce fait, les daigou sont souvent perçus comme des « connaisseurs » ou des « key opinion leaders [principaux leaders d'opinion en français] » qui ont développé une certaine influence chez les clients. « Sans oublier d’ailleurs que certains produits ne sont pas disponibles sur le marché chinois », ajoute le spécialiste.</p>
@@ -71,22 +72,13 @@
 
       </section>
     </main>
-
-
-
-
-
-
-
-
-
-
-    <div class="app container my-5">
-      
      
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
     <script src="vendors/vue.min.js"></script>
     <script src="index.js"></script>
+    <script src='multiline.js'></script>
   </body>
 </html>
