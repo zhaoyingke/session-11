@@ -30,11 +30,16 @@ h3{
   font-family: 'Playfair Display SC', serif;
   font-weight: 700;
   text-transform: capitalize;
-
+}  
+.diagram{
+  margin-right: 0px
+}
+.paradiagram{
+  margin-left: 0px
 }  
 .illus{
   margin: auto;
-  text-align: left;
+  text-align: right;
 }
 .chapo{
   margin: auto;

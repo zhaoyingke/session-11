@@ -1,5 +1,5 @@
-Vue.component('multibar-chart', {
-  extends: VueChartJs.HorizontalBar,
+Vue.component('my-multibar-chart', {
+  extends: VueChartJs.Bar,
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
@@ -33,7 +33,7 @@ Vue.component('multibar-chart', {
         ],
         xAxes: [
           {
-            stacked: false,
+            stacked: true,
             categoryPercentage: 1/2,
             barPercentage: 2/3
           }
