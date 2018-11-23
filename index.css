@@ -4,21 +4,48 @@ body {
 
 
 p{
-	text-align: justify;
+	text-align: left;
 }
 
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color:#b05080;
+}
 .app {
   
 }
 
 .main{
 	margin: auto;
+  font-family: 'Slabo 27', serif;
+  font-weight: 200,
+  font-size: 24px;
+  line-height: 26px;
 }
+.title{
+  margin: auto;
+  text-align: right;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700
 
+}  
+.illus{
+  margin: auto;
+  text-align: left;
+}
+.chapo{
+  margin: auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400
+
+}
 .firstcharacter {
-  color: #903;
+  color: #b05080;
   float: left;
-  font-family: Georgia;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   font-size: 75px;
   line-height: 60px;
   padding-top: 4px;
