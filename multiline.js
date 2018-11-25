@@ -1,4 +1,4 @@
-Vue.component('my-multibar-chart', {
+Vue.component('multibar-chart', {
   extends: VueChartJs.Bar,
   props: ['data', 'options'],
   mounted () {
