@@ -26,6 +26,10 @@ h5{
 .app {
   
 }
+.keyword{
+  color:#b05080;
+  font-style: bold
+}
 .source{
   font-size: 18px;
   font-style: italic;

@@ -1,42 +1,21 @@
-Vue.component('multibar-chart', {
-  extends: VueChartJs.HorizontalBar,
+Vue.component('chinese-luxury-spending-chart', {
+  extends: VueChartJs.Bar,
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: ["Mediterranean Migrant Crisis",
-      "Protests of Islam critical PEGIDA movement in Dresden",
-      "Financial Crisis in Greece",
-      "Ukraine conflict between Russia and Western Countries"],
+      labels: ["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020"],
       datasets: [
         {
-          label: 'Very high trust',
-          borderColor: '#A0B7C1',
-          backgroundColor: '#A0B7C1',
-          data: [0.03,0.03,0.04,0.02]
+          label: 'Marché domestique',
+          borderColor: '#82adc0',
+          backgroundColor: '#82adc0',
+          data: [9, 12, 14, 18, 22, 28, 34, 41, 50, 61, 74]
         },
         {
-          label: 'High trust',
-          borderColor: '#D7E1CA',
-          backgroundColor: '#D7E1CA',
-          data: [0.45,0.37,0.31,0.3]
-        },
-        {
-          label: 'No answer',
-          borderColor: '#E7DDBB',
-          backgroundColor: '#E7DDBB',
-          data: [0.02,0.04,0.02,0.02]
-        },
-        {
-          label: 'Low trust',
-          borderColor: '#E2A390',
-          backgroundColor: '#E2A390',
-          data: [0.41,0.41,0.46,0.52]
-        },
-        {
-          label: 'Very low trust',
-          borderColor: '#A8573B',
-          backgroundColor: '#A8573B',
-          data: [0.09,0.15,0.17,0.14]
+          label: "Touristes chinois à l'étranger",
+          borderColor: '#385f70',
+          backgroundColor: '#385f70',
+          data: [12, 15, 18, 22, 28, 34, 41, 49, 59, 71, 86]
         }
       ]
     };
@@ -46,7 +25,7 @@ Vue.component('multibar-chart', {
         yAxes:  [
           {
             display: true,
-            stacked: false,
+            stacked: true,
             ticks: {
               beginAtZero: true
             }
